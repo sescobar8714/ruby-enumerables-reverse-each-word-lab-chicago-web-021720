@@ -3,6 +3,6 @@ def reverse_each_word(string)
   original_array = string.split(" ")
 original_array.each do | string |
   new_array << string.reverses
-end 
+end
 new_array.join(" ")
 end
